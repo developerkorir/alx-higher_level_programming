@@ -5,6 +5,5 @@ def no_c(my_string):
         if i == 'c' or i == 'C':
             continue
         else:
-            #print("{}".format(i), end="")
             updated_string += i
     return updated_string
